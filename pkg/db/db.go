@@ -4,6 +4,7 @@ import (
 	"golang-app/configs"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
+	"log"
 )
 
 type DB struct {
@@ -16,6 +17,7 @@ func NewDb(conf *configs.Config) *DB {
 		panic(err)
 	}
 
-	return &DB{db}
+	log.Print("database connected success")
 
+	return &DB{db}
 }

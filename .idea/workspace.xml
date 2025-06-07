@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54829084-769a-448a-ab4c-9e027cf2d1a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMD/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/db/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/golang-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golang-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/authModule/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/authModule/payload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/link/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/link/link.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/link/payload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/auto.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/req/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/req/handle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/req/validate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/res/res.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMD/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CMD/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/db/db.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.darwin-arm64" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
