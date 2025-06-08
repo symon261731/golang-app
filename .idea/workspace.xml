@@ -4,31 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54829084-769a-448a-ab4c-9e027cf2d1a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/authModule/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/authModule/payload.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/link/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/link/link.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/link/payload.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/auto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/req/decode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/req/handle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/req/validate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/res/res.go" afterDir="false" />
+    <list default="true" id="54829084-769a-448a-ab4c-9e027cf2d1a6" name="Changes" comment="валидация, миграция, роуты на hash">
+      <change afterPath="$PROJECT_DIR$/internal/link/repository.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e86a0b2-f12b-46d2-9cdb-19b7f1869645/storage_v2/_src_/database/link.-q8yAA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMD/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CMD/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/link/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/link/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/link/link.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/link/link.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/link/payload.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/link/payload.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +36,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -59,30 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/semenmishchenko&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/semenmishchenko",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CMD" />
@@ -120,6 +110,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="валидация, миграция, роуты на hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="валидация, миграция, роуты на hash" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
